@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="regOrderSection">
+            <div class="inputField">
+                <h3>Email Address</h3>
+                <input type="text" id="regOrderEmail" pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" >
+            </div>
+            <div class="inputField">
+                <h3>Order Item</h3>
+                <input type="text" id="regOrderItem">
+            </div>
+            <div class="inputField">
+                <h3>Size of your Order</h3>
+                <div class="buttonField">
+                    <button id="smallOrderButton">Small</button>
+                    <button id="mediumOrderButton">Medium</button>
+                    <button id="largeOrderButton">Large</button>
+                </div>
+            </div>
+            <h2 id="orderPriceDisplay"></h2>
+            <button id="submitButton">Submit Order</button>
+        </div>
+
+        <div class="regListSection">
+            <div class="inputField">
+                <h3>Search by email address</h3>
+                <input type="text" id="listSearchText" pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" >
+                <button id="listSearchButton">Submit</button>
+            </div>
+            <ul id="searchResultsList">
+            </ul>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>

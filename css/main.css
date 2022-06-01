@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.regOrderSection {
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+}
+
+.regListSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+    margin: 1rem;
+    padding: 1rem;
+    border-style: ridge;
+
+}
+#searchResultsList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+}
